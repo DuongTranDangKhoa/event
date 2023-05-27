@@ -19,10 +19,11 @@ public class Event {
 
     private String eventContent;
     private String img;
-    private LocalDate time;
+    private LocalDate beginDate;
     private LocalDate endDate;
     private String area;
     private boolean status;
+
     @ManyToOne
     @JoinColumn(name = "username")
     private Account username;
