@@ -1,5 +1,6 @@
-package com.example.event;
+package com.example.event.DTO;
 
+import com.example.event.DTO.Account;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,7 +17,6 @@ public class Event {
     @Id
     private int eventID;
     private String eventName;
-
     private String eventContent;
     private String img;
     private LocalDate beginDate;

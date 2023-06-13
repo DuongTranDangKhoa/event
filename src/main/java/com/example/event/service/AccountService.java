@@ -1,6 +1,6 @@
 package com.example.event.service;
 
-import com.example.event.Account;
+import com.example.event.DTO.Account;
 import com.example.event.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

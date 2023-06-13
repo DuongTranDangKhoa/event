@@ -1,4 +1,4 @@
-package com.example.event;
+package com.example.event.DTO;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

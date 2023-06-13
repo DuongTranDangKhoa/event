@@ -1,5 +1,6 @@
-package com.example.event;
+package com.example.event.DTO;
 
+import com.example.event.DTO.Account;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
